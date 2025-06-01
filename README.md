@@ -30,4 +30,22 @@ This is the complete **backend** for a Course Selling Application, built with **
 ---
 
 ## 📂 Project Structure
-
+project/
+│
+├── Routes/
+│ ├── user.js
+│ ├── admin.js
+│ └── course.js
+│
+├── Middleware/
+│ ├── auth.js
+│
+├── Models/
+│ ├── user.js
+│ ├── admin.js
+│ ├── course.js
+│ └── purchase.js
+│
+├── app.js
+├── .env
+└── package.json
